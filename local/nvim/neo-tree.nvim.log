@@ -1,0 +1,36 @@
+[ERROR Wed 15 Jan 2025 05:05:55 PM CST] ...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:132: debounce  filesystem_navigate  error:  ...d/.local/share/nvim/lazy/nui.nvim/lua/nui/split/init.lua:169: Error executing lua: ...d/.local/share/nvim/lazy/nui.nvim/lua/nui/split/init.lua:170: Vim(split):E11: Invalid in command-line window; <CR> executes, CTRL-C quits: silent noswapfile vertical topleft 40split
+stack traceback:
+	[C]: in function 'nvim_command'
+	...d/.local/share/nvim/lazy/nui.nvim/lua/nui/split/init.lua:170: in function <...d/.local/share/nvim/lazy/nui.nvim/lua/nui/split/init.lua:169>
+	[C]: in function 'nvim_win_call'
+	...d/.local/share/nvim/lazy/nui.nvim/lua/nui/split/init.lua:169: in function '_open_window'
+	...d/.local/share/nvim/lazy/nui.nvim/lua/nui/split/init.lua:257: in function 'mount'
+	...are/nvim/lazy/neo-tree.nvim/lua/neo-tree/ui/renderer.lua:1024: in function 'acquire_window'
+	...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:546: in function 'get_items'
+	...y/neo-tree.nvim/lua/neo-tree/sources/filesystem/init.lua:150: in function '_navigate_internal'
+	...y/neo-tree.nvim/lua/neo-tree/sources/filesystem/init.lua:171: in function <...y/neo-tree.nvim/lua/neo-tree/sources/filesystem/init.lua:170>
+	[C]: in function 'pcall'
+	...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:126: in function 'debounce'
+	...y/neo-tree.nvim/lua/neo-tree/sources/filesystem/init.lua:170: in function 'navigate'
+	...nvim/lazy/neo-tree.nvim/lua/neo-tree/sources/manager.lua:494: in function 'navigate'
+	...re/nvim/lazy/neo-tree.nvim/lua/neo-tree/command/init.lua:204: in function 'do_show_or_focus'
+	...re/nvim/lazy/neo-tree.nvim/lua/neo-tree/command/init.lua:163: in function 'execute'
+	...l/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/editor.lua:11: in function <...l/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/editor.lua:10>
+[ERROR Wed 15 Jan 2025 05:06:03 PM CST] ...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:132: debounce  filesystem_navigate  error:  ...d/.local/share/nvim/lazy/nui.nvim/lua/nui/split/init.lua:169: Error executing lua: ...d/.local/share/nvim/lazy/nui.nvim/lua/nui/split/init.lua:170: Vim(split):E11: Invalid in command-line window; <CR> executes, CTRL-C quits: silent noswapfile vertical topleft 40split
+stack traceback:
+	[C]: in function 'nvim_command'
+	...d/.local/share/nvim/lazy/nui.nvim/lua/nui/split/init.lua:170: in function <...d/.local/share/nvim/lazy/nui.nvim/lua/nui/split/init.lua:169>
+	[C]: in function 'nvim_win_call'
+	...d/.local/share/nvim/lazy/nui.nvim/lua/nui/split/init.lua:169: in function '_open_window'
+	...d/.local/share/nvim/lazy/nui.nvim/lua/nui/split/init.lua:257: in function 'mount'
+	...are/nvim/lazy/neo-tree.nvim/lua/neo-tree/ui/renderer.lua:1024: in function 'acquire_window'
+	...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:546: in function 'get_items'
+	...y/neo-tree.nvim/lua/neo-tree/sources/filesystem/init.lua:150: in function '_navigate_internal'
+	...y/neo-tree.nvim/lua/neo-tree/sources/filesystem/init.lua:171: in function <...y/neo-tree.nvim/lua/neo-tree/sources/filesystem/init.lua:170>
+	[C]: in function 'pcall'
+	...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:126: in function 'debounce'
+	...y/neo-tree.nvim/lua/neo-tree/sources/filesystem/init.lua:170: in function 'navigate'
+	...nvim/lazy/neo-tree.nvim/lua/neo-tree/sources/manager.lua:494: in function 'navigate'
+	...re/nvim/lazy/neo-tree.nvim/lua/neo-tree/command/init.lua:204: in function 'do_show_or_focus'
+	...re/nvim/lazy/neo-tree.nvim/lua/neo-tree/command/init.lua:163: in function 'execute'
+	...l/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/editor.lua:18: in function <...l/share/nvim/lazy/LazyVim/lua/lazyvim/plugins/editor.lua:17>
