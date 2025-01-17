@@ -1,5 +1,7 @@
 # nvim-config
 
+THIS IS AN INSTALLATION OF LAZYVIM, WITH A FEW EXTRA STEPS. FUNCTIONALITY WILL BE THE SAME AS VANILLA LAZYVIM INSTALL
+
 Installation steps:
 1. Instal Neovim
 2. pull down repo in home dir
