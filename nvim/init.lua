@@ -1,3 +1,3 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
--- testing some more for conflicts
+-- Testing for merge conflict
 require("config.lazy")
